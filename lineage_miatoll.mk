@@ -28,5 +28,9 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
-BUILD_USERNAME := userariii
-BUILD_HOSTNAME := lineage
+
+# Sakura
+SAKURA_MAINTAINER := "Mahesh Technicals"
+SAKURA_BUILD_TYPE := gapps
+-include vendor/lineage-priv/keys/keys.mk
+
