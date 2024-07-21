@@ -18,3 +18,9 @@ git clone -b 14-OpenELA https://github.com/ProjectElixir-Devices/kernel_xiaomi_s
 
 # vendor/xiaomi
 git clone -b Fourteen https://github.com/ProjectElixir-Devices/vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
+
+# android_device_lineage_sepolicy
+git clone https://github.com/clarencekopitiam/android_device_lineage_sepolicy.git device/lineage/sepolicy
+
+# Updated miui camera repository
+git clone https://gitlab.com/userariii/vendor-xiaomi-miuicamera.git vendor/xiaomi/miuicamera
